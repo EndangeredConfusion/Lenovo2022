@@ -20,3 +20,5 @@ mean_response_length = (sum([len(item[1]) for item in infos.WHYOSATen.iteritems(
 print(f"{mean_response_length = }")
 
 keyword_stats(infos)
+
+print(infos.OSAT.describe())
